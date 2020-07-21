@@ -67,7 +67,7 @@ Nosso projeto trata-se de um CRUD de usuários, onde cada usuário possui um nom
  Devemos também rodar as nossas migrations para a construção da tabela de usuários no nosso banco de dados. fazemos isso através do comando
 
  ```shell
- npx knex migration:latest
+ npx knex migrate:latest
  ```
 
  Após criada a nossa tabela podemos rodar as seeds que vão popular o nosso banco e nos possibilitar uma melhor visualização do funcionamento da aplicação
