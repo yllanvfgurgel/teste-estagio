@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    height: 90px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-card {
+    margin: 40px auto 0;
+    width: 900px;
+}
+
+.new-user-button {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.delete-user-button,
+.new-user-button,
+tbody td a {
+    background-color: #343a40;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+thead th:last-child {
+    text-align: center;
+}
+
+.delete-user-button,
+.new-user-button:hover,
+tbody td a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.create-user-form {
+    margin-top: 40px;
+    position: relative;
+}
+
+.save-button {
+    right: 0;
+}
+
+.btn.btn-primary {
+    text-transform: uppercase;
+    background-color: #343a40;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.buttons-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.delete-user-button {
+    background-color: lightcoral;
+    margin-left: 8px;
+}
+
+.error {
+    padding: 50px;
+    text-align: center;
+}
+
+.main-link {
+    color: white;
+}
+
+.main-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
