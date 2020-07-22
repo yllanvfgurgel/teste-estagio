@@ -78,4 +78,4 @@ Nosso projeto trata-se de um CRUD de usuários, onde cada usuário possui um nom
  npx knex seed:run
  ```
 
-Depois de executados esses comandos podemos utilizar nossa aplicação normalmente e ver as suas funcionalidades.
+Depois de executados esses comandos podemos utilizar nossa aplicação normalmente e ver as suas funcionalidades no link https://localhost:5000
